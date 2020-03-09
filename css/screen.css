@@ -21,10 +21,12 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Reem Kufi'; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  background-color: #ffffff;
+
 }
 
 /**
@@ -58,7 +60,8 @@ html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
-}
+  color: #896C39;
+  }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -196,10 +199,26 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: #B09E90;
+  text-align: center;
 }
 
 label {
   display: block;
+}
+
+h1{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.375em; /* 22px */ 
+  padding: 1.182em; /* 26px / ~ 120% */
+}
+
+p{
+  font-family: 'Reem Kufi', sans-serif; /* 1 */
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 600px) {
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -207,4 +226,3 @@ label {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-
