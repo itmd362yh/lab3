@@ -203,6 +203,8 @@ html {
   text-align: center;
 }
 
+
+
 label {
   display: block;
 }
@@ -219,6 +221,23 @@ p{
 }
 
 @media only screen and (min-width: 600px) {
+
+body{
+	background-color: #B09E90;	
+}
+
+h1{
+	color: #FEAAB9;
+}
+input[type=submit] {
+	color: #FEAAB9;
+	border-radius: 0em;
+  text-align: center;
+	font-size: 1em;
+  margin: 20px;
+
+}
+
 }
 
 /* ===== LAYOUT STYLES ====== */
