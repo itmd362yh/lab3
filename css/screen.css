@@ -215,7 +215,7 @@ label {
 
 h1{
   font-family: 'Playfair Display SC', serif;
-  font-size: 1.375em; /* 22px */ 
+  font-size: 2em; /* 22px */ 
   padding: 1.182em; /* 26px / ~ 120% */
 }
 
@@ -227,21 +227,21 @@ p{
 @media only screen and (min-width: 600px) {
 
 body{
-	background-color: #B09E90;	
+  background-color: #B09E90;	
 }
 
 h1{
-	color: #FEAAB9;
+  color: #FEAAB9;
 }
 p{
   font-weight: bold;
 
 }
 input[type=submit] {
-	color: #FEAAB9;
-	border-radius: 0em;
+  color: #FEAAB9;
+  border-radius: 0em;
   text-align: center;
-	font-size: 1em;
+  font-size: 1em;
   margin: 20px;
 
 }
